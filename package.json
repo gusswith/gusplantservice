@@ -1,0 +1,22 @@
+{
+  "name": "gussplant",
+  "version": "1.0.0",
+  "description": "Test",
+  "repository": {
+    "type": "git",
+    "url": "sdasd"
+  },
+  "license": "MIT",
+  "author": "gusswith",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "firebase-admin": "^13.6.0"
+  }
+}
