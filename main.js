@@ -13,6 +13,6 @@ expressApp.use('/clientapi', clientRoute);
 expressApp.get('/', (req, res) => {
     res.send('GusPlant - a device for recording and monitoring your cutie plants.');
 })
-expressApp.listen(80, () => {
-    console.log(`Port: 80`);
+expressApp.listen(8080, () => {
+    console.log(`Port: 8080 `);
 })
